@@ -1,0 +1,42 @@
+# Vite & React
+/node_modules
+/dist
+/Front End/dist
+/Front End/node_modules
+
+# Node.js
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+.npm
+.yarn
+
+# Build & Cache
+build/
+out/
+.next
+.vercel
+
+# Environment Variables (CRITICAL)
+.env
+.env.local
+config.env
+.env.development
+.env.production
+.env.test
+
+# IDE & Editor
+.DS_Store
+Thumbs.db
+*.log
+.cache
+temp/
+tmp/
+
+# OS
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
