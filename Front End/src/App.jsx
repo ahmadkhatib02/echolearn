@@ -374,7 +374,7 @@ const App = () => {
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
           className="w-full h-48 p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-          placeholder="Paste an article, notes, or any text you want to study. EchoLearn will extract key concepts and create interactive flashcards with voice navigation..."
+          placeholder="Paste an article, notes, or any text you want to study. EchoLearn will extract key concepts and create interactive flashcards..."
         />
 
         <div className="flex justify-between items-center mt-4">
