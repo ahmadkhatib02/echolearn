@@ -2,10 +2,15 @@
   "version": 2,
   "builds": [
     { "src": "backend/server.js", "use": "@vercel/node" },
-    { "src": "Front End/**", "use": "@vercel/static" }
+    { "src": "Front End/**/*", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "backend/server.js" },
-    { "src": "/(.*)", "dest": "Front End/dist/index.html" }
+    { "src": "/api/(.*)", "dest": "/backend/server.js" },
+
+    { "src": "/assets/(.*)", "dest": "/Front End/dist/assets/$1" },
+    { "src": "/favicon.ico", "dest": "/Front End/dist/favicon.ico" },
+    { "src": "/icon-192.png", "dest": "/Front End/dist/icon-192.png" },
+
+    { "src": "/(.*)", "dest": "/Front End/dist/index.html" }
   ]
 }
