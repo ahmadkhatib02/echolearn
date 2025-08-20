@@ -1,7 +1,7 @@
 # Vite & React
 /node_modules
 /dist
-/Front End/dist
+# /Front End/dist
 /Front End/node_modules
 
 # Node.js
@@ -12,11 +12,11 @@ yarn-debug.log
 .npm
 .yarn
 
-# Build & Cache
-build/
-out/
-.next
-.vercel
+# # Build & Cache
+# build/
+# out/
+# .next
+# .vercel
 
 # Environment Variables (CRITICAL)
 .env
